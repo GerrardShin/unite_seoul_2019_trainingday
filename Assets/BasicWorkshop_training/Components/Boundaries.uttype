@@ -1,0 +1,50 @@
+﻿[{
+    "$TypeId": 3,
+    "Id": "d176c88685664e70857ba67e952b8479",
+    "Name": "Boundaries",
+    "ExportFlags": 0,
+    "Unlisted": false,
+    "Visibility": 0,
+    "TypeCode": "Component",
+    "Fields": [{
+        "Id": "c7885dc436ff43e281678eccf5e89392",
+        "Name": "minX",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "b679c1597ca440779943d2f79f1538ba",
+        "Name": "maxX",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "1672cce8d9a1481998885bc9386c0f53",
+        "Name": "minY",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }, {
+        "Id": "8ed2d1247e2847c1a9a1cc79d6c47cf9",
+        "Name": "maxY",
+        "FieldType": { "Id": "67325dccf2f047c19c7ef4a045354e67", "Name": "Float32" },
+        "Array": false,
+        "Visibility": 0,
+        "EditorOnly": false,
+        "Versioned": true
+    }],
+    "DefaultValue": {
+        "Type": { "Id": "d176c88685664e70857ba67e952b8479", "Name": "Boundaries" },
+        "Properties": {
+            "maxX": 0,
+            "minY": 0,
+            "maxY": 0
+        }
+    }
+}]

@@ -1,0 +1,136 @@
+﻿{
+    "Item": {
+        "Name": "Project",
+        "Size": 0,
+        "CompressedSize": 0
+    },
+    "Children": [{
+        "Item": {
+            "Name": "Runtime",
+            "Size": 0,
+            "CompressedSize": 0
+        },
+        "Children": [{
+            "Item": {
+                "Name": "TinyExport/BasicWorkshop/html5/release/build/runtime.js",
+                "Size": 1167227,
+                "CompressedSize": 225351
+            }
+        }]
+    }, {
+        "Item": {
+            "Name": "Assets",
+            "Size": 0,
+            "CompressedSize": 0
+        },
+        "Children": [{
+            "Item": {
+                "Name": "JavaScript",
+                "Size": 6396,
+                "CompressedSize": 0
+            }
+        }, {
+            "Item": {
+                "Name": "Assets/BasicWorkshop_training/Textures/Empty.png",
+                "Size": 0,
+                "CompressedSize": 0,
+                "Object": { "$TypeId": 10, "Guid": "58199217fc9cd4ea3876f07b48e92663", "FileId": 2800000, "Type": 3 }
+            },
+            "Children": [{
+                "Item": {
+                    "Name": "TinyExport/BasicWorkshop/html5/release/artifacts/assets/Empty.png",
+                    "Size": 19984,
+                    "CompressedSize": 1937,
+                    "Object": { "$TypeId": 10, "Guid": "58199217fc9cd4ea3876f07b48e92663", "FileId": 2800000, "Type": 3 }
+                }
+            }]
+        }, {
+            "Item": {
+                "Name": "Assets/BasicWorkshop_training/Textures/GalaxyRaiders.png",
+                "Size": 0,
+                "CompressedSize": 0,
+                "Object": { "$TypeId": 10, "Guid": "7ab5f03a0f9d24e738a6233b39681e34", "FileId": 2800000, "Type": 3 }
+            },
+            "Children": [{
+                "Item": {
+                    "Name": "TinyExport/BasicWorkshop/html5/release/artifacts/assets/GalaxyRaiders.png",
+                    "Size": 8476,
+                    "CompressedSize": 6336,
+                    "Object": { "$TypeId": 10, "Guid": "7ab5f03a0f9d24e738a6233b39681e34", "FileId": 2800000, "Type": 3 }
+                }
+            }]
+        }, {
+            "Item": {
+                "Name": "Assets/BasicWorkshop_training/Textures/background.png",
+                "Size": 0,
+                "CompressedSize": 0,
+                "Object": { "$TypeId": 10, "Guid": "3b67da557d0fd4e3dbebac5a80c07b83", "FileId": 2800000, "Type": 3 }
+            },
+            "Children": [{
+                "Item": {
+                    "Name": "TinyExport/BasicWorkshop/html5/release/artifacts/assets/background.png",
+                    "Size": 11928,
+                    "CompressedSize": 8883,
+                    "Object": { "$TypeId": 10, "Guid": "3b67da557d0fd4e3dbebac5a80c07b83", "FileId": 2800000, "Type": 3 }
+                }
+            }]
+        }]
+    }, {
+        "Item": {
+            "Name": "Code",
+            "Size": 0,
+            "CompressedSize": 0
+        },
+        "Children": [{
+            "Item": {
+                "Name": "TinyExport/BasicWorkshop/html5/release/build/entities.js",
+                "Size": 15381,
+                "CompressedSize": 2723
+            },
+            "Children": [{
+                "Item": {
+                    "Name": "ExplosionGroup",
+                    "Size": 2249,
+                    "CompressedSize": 625
+                }
+            }, {
+                "Item": {
+                    "Name": "MainGroup",
+                    "Size": 11052,
+                    "CompressedSize": 2146
+                }
+            }, {
+                "Item": {
+                    "Name": "EnemyGroup",
+                    "Size": 1999,
+                    "CompressedSize": 694
+                }
+            }]
+        }, {
+            "Item": {
+                "Name": "TinyExport/BasicWorkshop/html5/release/build/bindings.js",
+                "Size": 103849,
+                "CompressedSize": 8614
+            }
+        }, {
+            "Item": {
+                "Name": "TinyExport/BasicWorkshop/html5/release/build/code.js",
+                "Size": 17417,
+                "CompressedSize": 4210
+            },
+            "Children": [{
+                "Item": {
+                    "Name": "TinyExport/BasicWorkshop/html5/release/artifacts/scripts/tsc-emit.js",
+                    "Size": 17328,
+                    "CompressedSize": 4131
+                }
+            }]
+        }, {
+            "Item": {
+                "Name": "TinyExport/BasicWorkshop/html5/release/build/main.js",
+                "Size": 5352,
+                "CompressedSize": 1377
+            }
+        }]
+    }]
+}

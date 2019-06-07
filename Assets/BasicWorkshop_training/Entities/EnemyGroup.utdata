@@ -1,0 +1,94 @@
+﻿[{
+    "$TypeId": 4,
+    "Id": "cea82f1bdd1749aea30a8b158a2183f8",
+    "Name": "EnemyGroup",
+    "ExportFlags": 0,
+    "SerializedVersion": 0,
+    "Entities": [
+        { "$TypeId": 9, "Id": "668c8b0de91b4a20bd620ca2990625a3", "Name": "Enemy" }
+    ]
+},
+{
+    "$TypeId": 5,
+    "Id": "668c8b0de91b4a20bd620ca2990625a3",
+    "Name": "Enemy",
+    "Enabled": true,
+    "Static": false,
+    "Layer": 0,
+    "Components": [{
+        "Type": { "Id": "c895dbe72eb46ecb10d589d320151758", "Name": "TransformNode" }
+    }, {
+        "Type": { "Id": "70449d66178e0d9f66795c24f0fbbdfc", "Name": "TransformLocalPosition" },
+        "Properties": {
+            "position": {
+                "Type": { "Id": "f139194553e8ae4a3250c5527d6de169", "Name": "Vector3" },
+                "Properties": {
+                    "x": 5.38,
+                    "y": 0.8686209
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "2266a95f5d16ca1ddde710d7c047ba69", "Name": "TransformLocalRotation" },
+        "Properties": {
+            "rotation": {
+                "Type": { "Id": "dc7e11e5d517ed01fd5d084a6c9fd64d", "Name": "Quaternion" },
+                "Properties": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 1,
+                    "w": 0
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "1c504a8a7963db0d32e89b527b90e057", "Name": "Sprite2DRenderer" },
+        "Properties": {
+            "sprite": { "$TypeId": 10, "Guid": "7ab5f03a0f9d24e738a6233b39681e34", "FileId": 21300020, "Type": 3 },
+            "color": {
+                "Type": { "Id": "2a90a1633d6dc16cd37cdfaca7b93cea", "Name": "Color" },
+                "Properties": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1,
+                    "a": 1
+                }
+            }
+        }
+    }, {
+        "Type": { "Id": "b1e5348389156b7a260d6ed393754fba", "Name": "LayerSorting" },
+        "Properties": {
+            "order": 3
+        }
+    }, {
+        "Type": { "Id": "f0d3d33e15564c019aa9f409af31e368", "Name": "MoveSpeed" },
+        "Properties": {
+            "speed": 1
+        }
+    }, {
+        "Type": { "Id": "d176c88685664e70857ba67e952b8479", "Name": "Boundaries" },
+        "Properties": {
+            "minX": -3.5,
+            "maxX": 3.5,
+            "minY": -6,
+            "maxY": 6
+        }
+    }, {
+        "Type": { "Id": "53019dfc1a6d4dbf8272c75e5887c1ac", "Name": "EnemyTag" }
+    }, {
+        "Type": { "Id": "c685b6b38b8f4bfc81c677be5c74ea5c", "Name": "ChangeOverTime" }
+    }, {
+        "Type": { "Id": "a015bc52c7befa4d7484891d74d2b574", "Name": "RectHitBox2D" },
+        "Properties": {
+            "box": {
+                "Type": { "Id": "f216da154c4054842adb590807e977ba", "Name": "Rect" },
+                "Properties": {
+                    "x": -0.23,
+                    "y": -0.3,
+                    "width": 0.45,
+                    "height": 0.65
+                }
+            }
+        }
+    }]
+}]
